@@ -71,7 +71,7 @@
     "image_banner_aRHAGD": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify://shop_images/BannersandPromotional_1268acd3-073d-45d1-9597-b666806ddf69.png",
+        "image": "shopify://shop_images/coffee.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-center",
@@ -178,7 +178,7 @@
       "settings": {
         "image": "shopify://shop_images/BannersandPromotional_1268acd3-073d-45d1-9597-b666806ddf69.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
