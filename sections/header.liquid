@@ -84,8 +84,16 @@
     }
   }
 
-  .menu-drawer {
-    z-index: 10000 !important;
+  /* Ensure mobile menu is frontmost */
+  @media screen and (max-width: 989px) {
+    .menu-drawer {
+      z-index: 10000 !important;
+    }
+    /* Target hero section to ensure it stays below */
+    .banner, .banner__media, .hero {
+      z-index: 1 !important;
+      position: relative !important; /* Ensure hero doesn't create a conflicting stacking context */
+    }
   }
 </style>
 
