@@ -28,7 +28,7 @@
 <style>
   header-drawer {
     justify-self: start;
-    margin-left: 0; /* Removed negative margin for alignment */
+    margin-left: -1.2rem;
   }
 
   {%- if section.settings.sticky_header_type == 'reduce-logo-size' -%}
@@ -81,91 +81,6 @@
     .list-menu__item--link {
       padding-bottom: 0.5rem;
       padding-top: 0.5rem;
-    }
-  }
-
-  /* Mobile menu z-index fix + alignment with nav items */
-  @media screen and (max-width: 989px) {
-    /* Elevate header and menu */
-    .section-header {
-      z-index: 100000 !important;
-      isolation: isolate;
-      position: relative !important;
-      display: flex; /* Ensure header items align */
-      align-items: center; /* Vertical alignment */
-      justify-content: space-between; /* Space out drawer and icons */
-      padding: 1rem; /* Consistent padding */
-    }
-
-    /* Menu drawer: Fixed for z-index, aligned with nav */
-    .menu-drawer,
-    .menu-drawer__container,
-    .menu-drawer__inner,
-    header-drawer {
-      z-index: 100001 !important;
-      position: fixed !important;
-      top: 0 !important;
-      left: 0 !important;
-      width: 100% !important;
-      height: 100% !important;
-      isolation: isolate !important;
-    }
-
-    /* Align header-drawer with other icons */
-    header-drawer {
-      display: flex;
-      align-items: center;
-      padding: 0 1rem; /* Match header__icons padding */
-      margin: 0; /* Ensure no offsets */
-    }
-
-    /* Align nav icons container */
-    .header__icons {
-      display: flex;
-      align-items: center;
-      gap: 1rem; /* Consistent spacing between icons */
-      padding: 0 1rem;
-    }
-
-    /* Individual nav icons (search, cart, account) */
-    .header__icon {
-      display: flex;
-      align-items: center;
-      padding: 0.5rem; /* Consistent touch target */
-    }
-
-    /* Hero/Banner: Keep below menu */
-    .banner,
-    .banner__media,
-    .banner__content,
-    .image-banner,
-    .image-banner__media,
-    .image-banner__content,
-    .slideshow,
-    .slideshow__media,
-    .video-banner,
-    .video-banner__media,
-    .hero,
-    .hero__media,
-    .image-with-text__media {
-      z-index: 0 !important;
-      position: relative !important;
-      transform: none !important;
-      isolation: auto !important;
-    }
-
-    .shopify-section:has(.banner),
-    .shopify-section:has(.image-banner),
-    .shopify-section:has(.slideshow),
-    .shopify-section:has(.video-banner) {
-      z-index: 1 !important;
-      position: relative !important;
-    }
-
-    /* Sticky header */
-    .shopify-section-header-sticky,
-    .scrolled-past-header {
-      z-index: 100000 !important;
     }
   }
 </style>
