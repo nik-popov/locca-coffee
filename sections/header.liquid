@@ -84,15 +84,62 @@
     }
   }
 
-  /* Ensure mobile menu is frontmost */
+  /* Ultimate mobile menu z-index fix: Break stacking contexts for hero overlap */
   @media screen and (max-width: 989px) {
-    .menu-drawer {
-      z-index: 10000 !important;
+    /* Elevate the entire header section globally */
+    .section-header {
+      z-index: 100000 !important;
+      isolation: isolate; /* Creates isolated stacking context for header */
+      position: relative !important;
     }
-    /* Target hero section to ensure it stays below */
-    .banner, .banner__media, .hero {
+
+    /* Menu drawer: Fixed positioning + isolation to escape stacking traps */
+    .menu-drawer,
+    .menu-drawer__container,
+    .menu-drawer__inner,
+    header-drawer {
+      z-index: 100001 !important; /* Higher than header */
+      position: fixed !important;
+      top: 0 !important;
+      left: 0 !important;
+      width: 100% !important;
+      height: 100% !important;
+      isolation: isolate !important; /* Key: Isolates menu's z-index globally */
+    }
+
+    /* Hero/Banner: Force out of stacking context + low z-index */
+    .banner,
+    .banner__media,
+    .banner__content,
+    .image-banner,
+    .image-banner__media,
+    .image-banner__content,
+    .slideshow,
+    .slideshow__media,
+    .video-banner,
+    .video-banner__media,
+    .hero,
+    .hero__media,
+    .image-with-text__media {
+      z-index: 0 !important; /* Below everything */
+      position: relative !important; /* Break absolute positioning on mobile */
+      transform: none !important; /* Remove any transforms creating contexts */
+      isolation: auto !important; /* Reset isolation if present */
+    }
+
+    /* Target hero section wrapper to prevent parent-level traps */
+    .shopify-section:has(.banner),
+    .shopify-section:has(.image-banner),
+    .shopify-section:has(.slideshow),
+    .shopify-section:has(.video-banner) {
       z-index: 1 !important;
-      position: relative !important; /* Ensure hero doesn't create a conflicting stacking context */
+      position: relative !important;
+    }
+
+    /* Sticky header classes: Ensure they don't interfere */
+    .shopify-section-header-sticky,
+    .scrolled-past-header {
+      z-index: 100000 !important;
     }
   }
 </style>
