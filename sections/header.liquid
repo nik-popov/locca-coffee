@@ -28,7 +28,7 @@
 <style>
   header-drawer {
     justify-self: start;
-    margin-left: -1.2rem;
+    margin-left: 0; /* Removed negative margin for alignment */
   }
 
   {%- if section.settings.sticky_header_type == 'reduce-logo-size' -%}
@@ -84,30 +84,57 @@
     }
   }
 
-  /* Ultimate mobile menu z-index fix: Break stacking contexts for hero overlap */
+  /* Mobile menu z-index fix + alignment with nav items */
   @media screen and (max-width: 989px) {
-    /* Elevate the entire header section globally */
+    /* Elevate header and menu */
     .section-header {
       z-index: 100000 !important;
-      isolation: isolate; /* Creates isolated stacking context for header */
+      isolation: isolate;
       position: relative !important;
+      display: flex; /* Ensure header items align */
+      align-items: center; /* Vertical alignment */
+      justify-content: space-between; /* Space out drawer and icons */
+      padding: 1rem; /* Consistent padding */
     }
 
-    /* Menu drawer: Fixed positioning + isolation to escape stacking traps */
+    /* Menu drawer: Fixed for z-index, aligned with nav */
     .menu-drawer,
     .menu-drawer__container,
     .menu-drawer__inner,
     header-drawer {
-      z-index: 100001 !important; /* Higher than header */
+      z-index: 100001 !important;
       position: fixed !important;
       top: 0 !important;
       left: 0 !important;
       width: 100% !important;
       height: 100% !important;
-      isolation: isolate !important; /* Key: Isolates menu's z-index globally */
+      isolation: isolate !important;
     }
 
-    /* Hero/Banner: Force out of stacking context + low z-index */
+    /* Align header-drawer with other icons */
+    header-drawer {
+      display: flex;
+      align-items: center;
+      padding: 0 1rem; /* Match header__icons padding */
+      margin: 0; /* Ensure no offsets */
+    }
+
+    /* Align nav icons container */
+    .header__icons {
+      display: flex;
+      align-items: center;
+      gap: 1rem; /* Consistent spacing between icons */
+      padding: 0 1rem;
+    }
+
+    /* Individual nav icons (search, cart, account) */
+    .header__icon {
+      display: flex;
+      align-items: center;
+      padding: 0.5rem; /* Consistent touch target */
+    }
+
+    /* Hero/Banner: Keep below menu */
     .banner,
     .banner__media,
     .banner__content,
@@ -121,13 +148,12 @@
     .hero,
     .hero__media,
     .image-with-text__media {
-      z-index: 0 !important; /* Below everything */
-      position: relative !important; /* Break absolute positioning on mobile */
-      transform: none !important; /* Remove any transforms creating contexts */
-      isolation: auto !important; /* Reset isolation if present */
+      z-index: 0 !important;
+      position: relative !important;
+      transform: none !important;
+      isolation: auto !important;
     }
 
-    /* Target hero section wrapper to prevent parent-level traps */
     .shopify-section:has(.banner),
     .shopify-section:has(.image-banner),
     .shopify-section:has(.slideshow),
@@ -136,7 +162,7 @@
       position: relative !important;
     }
 
-    /* Sticky header classes: Ensure they don't interfere */
+    /* Sticky header */
     .shopify-section-header-sticky,
     .scrolled-past-header {
       z-index: 100000 !important;
