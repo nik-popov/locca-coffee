@@ -1,1 +1,552 @@
-{"sections":{"3cb23e6a-bc5b-4b69-be49-680ce6665549":{"type":"custom-liquid","settings":{"custom_liquid":"<div class=\"parent\">\n<video class=\"video-background\" \"\" muted=\"\" no-controls=\"\" autoplay=\"\" src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c1290a41e1694f3d9f482cae06a1ed9a.mp4\" playsinline=\"\";>\n<source type=\"video\/mp4\" src=\"\">\n<\/source>\n<\/video>\n\n<\/div>\n\n<style>\n.parent {\nposition: absolute;\n}\n.video-background {\n  position: fixed;\n  opacity: 1;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n  -o-object-position: center;\n     object-position: center;\n}\n\n\n\n<\/style>","color_scheme":"scheme-a110ddff-dc21-481d-8175-ace8681367f0","padding_top":0,"padding_bottom":0}},"09a45578-c500-44cd-abe0-3e0e03c1e94a":{"type":"custom-liquid","settings":{"custom_liquid":"<style>\n@import url('https:\/\/fonts.googleapis.com\/css2?family=Jost:wght@550&display=swap');\n  .text-container {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    width: 100%;\n  }\n  .text-row {\n  color: #060000;\n  font-family: 'Jost', sans-serif;\n    width: 100%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    text-align: center;\n    margin: 0px;\n    z-index:3;\n  }\n  \/* Adjusts font size based on viewport width for responsiveness *\/\n  @media (min-width: 768px) {\n    .text-row {\n      font-size: 100px;\n    }\n  }\n  @media (max-width: 767px) {\n    .text-row {\n      font-size: 50px;\n      font-weight: 700; \/* Adjust for smaller screens *\/\n    }\n  }\n<\/style>\n<div class=\"text-container\" id=\"text-row-delay\" style=\"opacity : 0\"  >\n  <div class=\"text-row\" >GOOD DAYS START<\/div>\n  <div class=\"text-row\">WITH GOOD COFFEE<\/div>\n<\/div>\n<script src=\"\/\/code.jquery.com\/jquery-1.11.0.min.js\"><\/script> <script> $(document).ready(function() { $('#text-row-delay').delay(2000).animate({opacity: 1}, 2200); }); <\/script>","color_scheme":"background-1","padding_top":40,"padding_bottom":52}},"rich_text_PzTGkr":{"type":"rich-text","blocks":{"button_xn6Tx3":{"type":"button","settings":{"button_label":"Discover Locca","button_link":"shopify:\/\/pages\/about-us","button_style_secondary":false,"button_label_2":"Shop Now","button_link_2":"shopify:\/\/collections\/all","button_style_secondary_2":false}}},"block_order":["button_xn6Tx3"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"scheme-a110ddff-dc21-481d-8175-ace8681367f0","full_width":true,"padding_top":0,"padding_bottom":36}},"86982f33-d2b0-4f9e-b44b-8bd3226411ab":{"type":"rich-text","blocks":{"template--15077861916737__86982f33-d2b0-4f9e-b44b-8bd3226411ab-heading-1":{"type":"heading","settings":{"heading":"Good Days Start With Good Coffee™","heading_size":"h1"}},"template--15077861916737__86982f33-d2b0-4f9e-b44b-8bd3226411ab-text-1":{"type":"text","settings":{"text":"<p>Our beans are carefully selected, sourced from the finest growers around the world, ensuring every sip delivers a symphony of flavors. Our expert roasters then work their magic, transforming these beans into the perfect blend of aroma and taste.<\/p>"}},"template--15077861916737__86982f33-d2b0-4f9e-b44b-8bd3226411ab-button-1":{"type":"button","settings":{"button_label":"Shop Coffee","button_link":"shopify:\/\/products\/brazilian-blend-4oz","button_style_secondary":false,"button_label_2":"Shop Creamer","button_link_2":"shopify:\/\/products\/grass-fed-collagen-creamer-vanilla","button_style_secondary_2":false}}},"block_order":["template--15077861916737__86982f33-d2b0-4f9e-b44b-8bd3226411ab-heading-1","template--15077861916737__86982f33-d2b0-4f9e-b44b-8bd3226411ab-text-1","template--15077861916737__86982f33-d2b0-4f9e-b44b-8bd3226411ab-button-1"],"disabled":true,"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"background-1","full_width":true,"padding_top":40,"padding_bottom":52}},"054d66c5-aba1-4c81-9d21-848999a692b5":{"type":"image-with-text","blocks":{"template--15077861916737__054d66c5-aba1-4c81-9d21-848999a692b5-heading-1":{"type":"heading","settings":{"heading":"Elevate Your Morning Brew","heading_size":"h1"}},"template--15077861916737__054d66c5-aba1-4c81-9d21-848999a692b5-text-1":{"type":"text","settings":{"text":"<p>A delicious creamer with your daily dose of Collagen and Superfoods to support energy, digestion, and skin health.<\/p><p>- Healthy bones and joints<\/p><p>- Improved skin elasticity<\/p><p>- Supports healthy inflammatory response<\/p><p>- Strengthens connective tissue in the body<\/p>","text_style":"body"}},"template--15077861916737__054d66c5-aba1-4c81-9d21-848999a692b5-button-1":{"type":"button","settings":{"button_label":"Shop Now","button_link":"shopify:\/\/products\/grass-fed-collagen-creamer-vanilla","button_style_secondary":false}},"0a8b38eb-bb20-4554-aa2e-78b136c33da8":{"type":"caption","settings":{"caption":"","text_style":"subtitle","text_size":"large"}}},"block_order":["template--15077861916737__054d66c5-aba1-4c81-9d21-848999a692b5-heading-1","template--15077861916737__054d66c5-aba1-4c81-9d21-848999a692b5-text-1","template--15077861916737__054d66c5-aba1-4c81-9d21-848999a692b5-button-1","0a8b38eb-bb20-4554-aa2e-78b136c33da8"],"disabled":true,"settings":{"image":"shopify:\/\/shop_images\/1_2e245419-a818-4327-bc11-988eff38ce5f.png","height":"adapt","desktop_image_width":"medium","layout":"text_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"no-overlap","section_color_scheme":"background-1","color_scheme":"accent-1","image_behavior":"zoom-in","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"fe8620c8-5e78-4064-9845-1aa3abe849f5":{"type":"multirow","blocks":{"template--15077861916737__fe8620c8-5e78-4064-9845-1aa3abe849f5-row-1":{"type":"row","settings":{"image":"shopify:\/\/shop_images\/9.png","caption":"Medium Roast","heading":"<strong>Hemp Infused<\/strong>","text":"<p>Whether you’re a coffee enthusiast seeking a new experience or someone mindful of health and wellness, our Hemp-Infused Coffee is a perfect choice. Let each cup be a moment of indulgence and a step towards a more balanced you.<\/p>","button_label":"Shop Hemp","button_link":"shopify:\/\/products\/organic-hemp-coffee-blend-medium-roast-4oz"}},"template--15077861916737__fe8620c8-5e78-4064-9845-1aa3abe849f5-row-2":{"type":"row","settings":{"image":"shopify:\/\/shop_images\/Banners_and_Promotional_2.png","caption":"Dark roast","heading":"<strong>Lions Mane & Chaga<\/strong>","text":"<p>Our Lions Mane & Chaga Blend marries the rich, earthy tones of Chaga mushrooms with the rich flavors Lions Mane. These natural ingredients are renowned for their health benefits, and we've harnessed their power in a cup of coffee that not only delights the palate but also nurtures the body. <\/p>","button_label":"Shop Mushroom","button_link":"shopify:\/\/products\/lion-s-mane-chaga-ground-coffee-4oz"}},"c6532fdb-95ac-4b96-bfbe-4088ca963f40":{"type":"row","settings":{"image":"shopify:\/\/shop_images\/8.png","caption":"Light-Medium Roast","heading":"<strong>Brazilian Blend<\/strong>","text":"<p>Whether enjoyed as a morning wake-up call, an afternoon treat, or an accompaniment to dessert, our Brazilian Coffee is versatile and inviting. It's perfect for those who appreciate a coffee that combines a rich taste with a smooth, enjoyable drinking experience.<\/p>","button_label":"Brazilian Blend","button_link":"shopify:\/\/products\/brazilian-blend-4oz"}},"813b842f-da12-4e3c-befc-469ce7ad2422":{"type":"row","settings":{"image":"shopify:\/\/shop_images\/11.png","caption":"Medium-Dark Roast","heading":"<strong>Manuka Honey<\/strong>","text":"<p>The raw Manuka Honey gives the coffee a unique sweet note that perfectly balances the acidity of the coffee. Along with this, the honey also provides anti-bacterial, anti-viral, and anti-inflammatory effects to the body. <\/p>","button_label":"Manuka Honey","button_link":"shopify:\/\/products\/manuka-honey-meld-brew-medium-roast-4oz"}}},"block_order":["template--15077861916737__fe8620c8-5e78-4064-9845-1aa3abe849f5-row-1","template--15077861916737__fe8620c8-5e78-4064-9845-1aa3abe849f5-row-2","c6532fdb-95ac-4b96-bfbe-4088ca963f40","813b842f-da12-4e3c-befc-469ce7ad2422"],"disabled":true,"settings":{"image_height":"medium","desktop_image_width":"medium","heading_size":"h1","text_style":"body","button_style":"primary","desktop_content_position":"middle","desktop_content_alignment":"left","image_layout":"alternate-left","section_color_scheme":"","row_color_scheme":"","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"132f0ac0-d8bf-47c5-8c42-be02085386fb":{"type":"multicolumn","blocks":{"template--15077861916737__132f0ac0-d8bf-47c5-8c42-be02085386fb-column-3":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/6.png","title":"Focus","text":"<p>This unique concoction is more than just a coffee; it's a daily ritual designed to invigorate your senses and enrich your well-being.<\/p>","link_label":"","link":""}},"template--15077861916737__132f0ac0-d8bf-47c5-8c42-be02085386fb-column-2":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/13.png","title":"<strong>Protein +<\/strong>","text":"<p>We then infuse these beans with sustainably sourced hemp, ensuring that each sip delivers the best in both taste and wellness. <\/p>","link_label":"","link":""}},"3172d33d-ba0c-47dc-b197-401c0d562f70":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/7.png","title":"Health & Wellness","text":"<p>Manuka Honey Coffee, an exquisite blend that combines the deep, rich flavors of our premium coffee with the unique sweetness and health benefits of Manuka honey.<\/p>","link_label":"","link":""}},"template--15077861916737__132f0ac0-d8bf-47c5-8c42-be02085386fb-column-1":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/12.png","title":"Classic","text":"<p>This coffee is a celebration of flavor, embodying the lively essence of its origin.<\/p><p>The Essence of Brazilian Coffee<\/p>","link_label":"","link":""}}},"block_order":["template--15077861916737__132f0ac0-d8bf-47c5-8c42-be02085386fb-column-3","template--15077861916737__132f0ac0-d8bf-47c5-8c42-be02085386fb-column-2","3172d33d-ba0c-47dc-b197-401c0d562f70","template--15077861916737__132f0ac0-d8bf-47c5-8c42-be02085386fb-column-1"],"disabled":true,"settings":{"title":"Our Roster","heading_size":"h1","image_width":"full","image_ratio":"adapt","columns_desktop":4,"column_alignment":"center","background_style":"primary","button_label":"TRY LOCCA","button_link":"","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"a8e2388a-240a-4924-802a-7379e7f9b794":{"type":"image-banner","blocks":{"template--15077861916737__a8e2388a-240a-4924-802a-7379e7f9b794-heading-1":{"type":"heading","disabled":true,"settings":{"heading":"Image banner","heading_size":"h1"}},"template--15077861916737__a8e2388a-240a-4924-802a-7379e7f9b794-text-1":{"type":"text","disabled":true,"settings":{"text":"Give customers details about the banner image(s) or content on the template.","text_style":"body"}},"template--15077861916737__a8e2388a-240a-4924-802a-7379e7f9b794-buttons-1":{"type":"buttons","disabled":true,"settings":{"button_label_1":"Button label","button_link_1":"","button_style_secondary_1":false,"button_label_2":"Button label","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--15077861916737__a8e2388a-240a-4924-802a-7379e7f9b794-heading-1","template--15077861916737__a8e2388a-240a-4924-802a-7379e7f9b794-text-1","template--15077861916737__a8e2388a-240a-4924-802a-7379e7f9b794-buttons-1"],"disabled":true,"settings":{"image":"shopify:\/\/shop_images\/5_02860d3c-2ae9-4d71-8bd2-7b8420650ded.png","image_overlay_opacity":0,"image_height":"medium","desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"","image_behavior":"fixed","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"9333be9b-5892-4e04-9413-6251f18e1354":{"type":"collapsible-content","blocks":{"template--15077861916737__9333be9b-5892-4e04-9413-6251f18e1354-collapsible_row-1":{"type":"collapsible_row","settings":{"heading":"What makes Locca Coffee Co. unique?","icon":"plant","row_content":"<p>Locca Coffee Co. specializes in crafting high-quality coffee with a focus on unique blends and health-enhancing ingredients, such as Chaga, Lion's Mane, and Manuka honey. Our dedication to innovation and quality sets us apart.<\/p>","page":""}},"template--15077861916737__9333be9b-5892-4e04-9413-6251f18e1354-collapsible_row-2":{"type":"collapsible_row","settings":{"heading":"How do I store my coffee to keep it fresh?","icon":"plant","row_content":"<p>We recommend storing your coffee in an airtight container, away from direct sunlight and heat. It's best to keep it in a cool, dark place to preserve its freshness and flavor.<\/p>","page":""}},"template--15077861916737__9333be9b-5892-4e04-9413-6251f18e1354-collapsible_row-3":{"type":"collapsible_row","settings":{"heading":"Is your coffee ethically sourced?","icon":"plant","row_content":"<p>Absolutely. We are committed to ethical sourcing, ensuring that all our coffee beans are acquired responsibly, supporting sustainable farming practices and fair compensation for farmers.<\/p>","page":""}},"template--15077861916737__9333be9b-5892-4e04-9413-6251f18e1354-collapsible_row-4":{"type":"collapsible_row","settings":{"heading":"Do you offer international shipping?","icon":"plant","row_content":"<p>Yes we do! We want people all over the world to be able to experience our amazing coffee so we’re happy to announce that we now offer world wide shipping for all our products.<\/p>","page":""}},"577c305a-dffe-4a7a-ada0-1149ec2bf7c6":{"type":"collapsible_row","settings":{"heading":"Are your coffee products gluten-free?","icon":"plant","row_content":"<p>Yes, all our coffee products are naturally gluten-free.<\/p>","page":""}},"48966681-dadb-4eac-88bc-7b9e1f783d3a":{"type":"collapsible_row","settings":{"heading":"Do you offer decaffeinated options?","icon":"plant","row_content":"<p>We currently focus on regular coffee blends. However, we are considering expanding our product range to include decaffeinated options in the future.<\/p>","page":""}},"1908e0b9-9236-4f72-bd35-86efc5563979":{"type":"collapsible_row","settings":{"heading":"What is the shelf life of your coffee?","icon":"plant","row_content":"<p>Our coffee is best enjoyed within 3-4 weeks of opening. However, when stored properly, it can last up to 6 months.<\/p>","page":""}},"ef949f3d-a77d-44d6-be05-e4638a18e149":{"type":"collapsible_row","settings":{"heading":"What is your return policy?","icon":"plant","row_content":"<p>We accept returns within 30 days of purchase for unopened products. For issues related to quality or shipment, please contact our customer service team.<\/p>","page":""}},"3a7cbd86-a108-49f5-b0e6-2cfa0076035a":{"type":"collapsible_row","settings":{"heading":"Do you offer wholesale pricing?","icon":"plant","row_content":"<p>Yes, we offer wholesale pricing to retailers and cafes. Please contact us directly at <a href=\"mailto:info@loccacoffee.com\"><span style=\"text-decoration:underline\">info@loccacoffee.com<\/span><\/a> for more information and pricing details.<\/p>","page":""}},"61f91c0a-4d4c-43ad-af3e-7beda2dcefdc":{"type":"collapsible_row","settings":{"heading":"Are your packaging materials eco-friendly?","icon":"plant","row_content":"<p>We are committed to sustainability, and our packaging is designed to be eco-friendly and recyclable.<\/p>","page":""}},"f7535c63-b199-4673-9769-606c067b0e32":{"type":"collapsible_row","disabled":true,"settings":{"heading":"How does the addition of ingredients like Chaga and Lion’s Mane affect the taste of coffee?","icon":"check_mark","row_content":"<p>Just like regular coffee! These ingredients are added to complement the coffee’s natural flavor profile. They offer subtle, earthy notes and enhance the coffee experience without overpowering the taste.<\/p>","page":""}},"f7f1d505-eca7-4ac1-8f48-e0ea624dbfff":{"type":"collapsible_row","disabled":true,"settings":{"heading":"Can I cancel my coffee subscription at any time?","icon":"check_mark","row_content":"<p>Yes, there are no long-term commitments. You can cancel your subscription at any time.<\/p>","page":""}}},"block_order":["template--15077861916737__9333be9b-5892-4e04-9413-6251f18e1354-collapsible_row-1","template--15077861916737__9333be9b-5892-4e04-9413-6251f18e1354-collapsible_row-2","template--15077861916737__9333be9b-5892-4e04-9413-6251f18e1354-collapsible_row-3","template--15077861916737__9333be9b-5892-4e04-9413-6251f18e1354-collapsible_row-4","577c305a-dffe-4a7a-ada0-1149ec2bf7c6","48966681-dadb-4eac-88bc-7b9e1f783d3a","1908e0b9-9236-4f72-bd35-86efc5563979","ef949f3d-a77d-44d6-be05-e4638a18e149","3a7cbd86-a108-49f5-b0e6-2cfa0076035a","61f91c0a-4d4c-43ad-af3e-7beda2dcefdc","f7535c63-b199-4673-9769-606c067b0e32","f7f1d505-eca7-4ac1-8f48-e0ea624dbfff"],"disabled":true,"settings":{"caption":"","heading":"FAQs","heading_size":"h1","heading_alignment":"center","layout":"section","color_scheme":"","container_color_scheme":"background-1","open_first_collapsible_row":false,"image_ratio":"adapt","desktop_layout":"image_second","padding_top":8,"padding_bottom":36}},"6690292d-f377-4339-92b2-9343f4064ce5":{"type":"featured-blog","disabled":true,"settings":{"heading":"Blog Posts","heading_size":"h1","blog":"news","post_limit":3,"columns_desktop":3,"color_scheme":"","show_image":true,"show_date":false,"show_author":false,"show_view_all":true,"padding_top":36,"padding_bottom":20}},"26723e4d-b75d-49e5-992f-aacfd4b7726b":{"type":"newsletter","blocks":{"template--15077861916737__26723e4d-b75d-49e5-992f-aacfd4b7726b-heading-1":{"type":"heading","settings":{"heading":"Find Out What's Brewing","heading_size":"h2"}},"template--15077861916737__26723e4d-b75d-49e5-992f-aacfd4b7726b-email_form-1":{"type":"email_form","settings":{}}},"block_order":["template--15077861916737__26723e4d-b75d-49e5-992f-aacfd4b7726b-heading-1","template--15077861916737__26723e4d-b75d-49e5-992f-aacfd4b7726b-email_form-1"],"disabled":true,"settings":{"color_scheme":"","full_width":true,"padding_top":20,"padding_bottom":32}}},"order":["3cb23e6a-bc5b-4b69-be49-680ce6665549","09a45578-c500-44cd-abe0-3e0e03c1e94a","rich_text_PzTGkr","86982f33-d2b0-4f9e-b44b-8bd3226411ab","054d66c5-aba1-4c81-9d21-848999a692b5","fe8620c8-5e78-4064-9845-1aa3abe849f5","132f0ac0-d8bf-47c5-8c42-be02085386fb","a8e2388a-240a-4924-802a-7379e7f9b794","9333be9b-5892-4e04-9413-6251f18e1354","6690292d-f377-4339-92b2-9343f4064ce5","26723e4d-b75d-49e5-992f-aacfd4b7726b"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "3cb23e6a-bc5b-4b69-be49-680ce6665549": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"parent\">\n<video class=\"video-background\" \"\" muted=\"\" no-controls=\"\" autoplay=\"\" src=\"https://cdn.shopify.com/videos/c/o/v/c1290a41e1694f3d9f482cae06a1ed9a.mp4\" playsinline=\"\";>\n<source type=\"video/mp4\" src=\"\">\n</source>\n</video>\n\n</div>\n\n<style>\n.parent {\nposition: absolute;\n}\n.video-background {\n  position: fixed;\n  opacity: 1;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n  -o-object-position: center;\n     object-position: center;\n}\n\n\n\n</style>",
+        "color_scheme": "scheme-a110ddff-dc21-481d-8175-ace8681367f0",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "09a45578-c500-44cd-abe0-3e0e03c1e94a": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n@import url('https://fonts.googleapis.com/css2?family=Jost:wght@550&display=swap');\n  .text-container {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    width: 100%;\n  }\n  .text-row {\n  color: #060000;\n  font-family: 'Jost', sans-serif;\n    width: 100%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    text-align: center;\n    margin: 0px;\n    z-index:3;\n  }\n  /* Adjusts font size based on viewport width for responsiveness */\n  @media (min-width: 768px) {\n    .text-row {\n      font-size: 100px;\n    }\n  }\n  @media (max-width: 767px) {\n    .text-row {\n      font-size: 50px;\n      font-weight: 700; /* Adjust for smaller screens */\n    }\n  }\n</style>\n<div class=\"text-container\" id=\"text-row-delay\" style=\"opacity : 0\"  >\n  <div class=\"text-row\" >GOOD DAYS START</div>\n  <div class=\"text-row\">WITH GOOD COFFEE</div>\n</div>\n<script src=\"//code.jquery.com/jquery-1.11.0.min.js\"></script> <script> $(document).ready(function() { $('#text-row-delay').delay(2000).animate({opacity: 1}, 2200); }); </script>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_PzTGkr": {
+      "type": "rich-text",
+      "blocks": {
+        "button_xn6Tx3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Discover Locca",
+            "button_link": "shopify://pages/about-us",
+            "button_style_secondary": false,
+            "button_label_2": "Shop Now",
+            "button_link_2": "shopify://collections/all",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_xn6Tx3"
+      ],
+      "custom_css": [],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-a110ddff-dc21-481d-8175-ace8681367f0",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "86982f33-d2b0-4f9e-b44b-8bd3226411ab": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15077861916737__86982f33-d2b0-4f9e-b44b-8bd3226411ab-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Good Days Start With Good Coffee™",
+            "heading_size": "h1"
+          }
+        },
+        "template--15077861916737__86982f33-d2b0-4f9e-b44b-8bd3226411ab-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our beans are carefully selected, sourced from the finest growers around the world, ensuring every sip delivers a symphony of flavors. Our expert roasters then work their magic, transforming these beans into the perfect blend of aroma and taste.</p>"
+          }
+        },
+        "template--15077861916737__86982f33-d2b0-4f9e-b44b-8bd3226411ab-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Coffee",
+            "button_link": "shopify://products/brazilian-blend-4oz",
+            "button_style_secondary": false,
+            "button_label_2": "Shop Creamer",
+            "button_link_2": "shopify://products/grass-fed-collagen-creamer-vanilla",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15077861916737__86982f33-d2b0-4f9e-b44b-8bd3226411ab-heading-1",
+        "template--15077861916737__86982f33-d2b0-4f9e-b44b-8bd3226411ab-text-1",
+        "template--15077861916737__86982f33-d2b0-4f9e-b44b-8bd3226411ab-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "054d66c5-aba1-4c81-9d21-848999a692b5": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15077861916737__054d66c5-aba1-4c81-9d21-848999a692b5-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Elevate Your Morning Brew",
+            "heading_size": "h1"
+          }
+        },
+        "template--15077861916737__054d66c5-aba1-4c81-9d21-848999a692b5-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A delicious creamer with your daily dose of Collagen and Superfoods to support energy, digestion, and skin health.</p><p>- Healthy bones and joints</p><p>- Improved skin elasticity</p><p>- Supports healthy inflammatory response</p><p>- Strengthens connective tissue in the body</p>",
+            "text_style": "body"
+          }
+        },
+        "template--15077861916737__054d66c5-aba1-4c81-9d21-848999a692b5-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/grass-fed-collagen-creamer-vanilla",
+            "button_style_secondary": false
+          }
+        },
+        "0a8b38eb-bb20-4554-aa2e-78b136c33da8": {
+          "type": "caption",
+          "settings": {
+            "caption": "",
+            "text_style": "subtitle",
+            "text_size": "large"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077861916737__054d66c5-aba1-4c81-9d21-848999a692b5-heading-1",
+        "template--15077861916737__054d66c5-aba1-4c81-9d21-848999a692b5-text-1",
+        "template--15077861916737__054d66c5-aba1-4c81-9d21-848999a692b5-button-1",
+        "0a8b38eb-bb20-4554-aa2e-78b136c33da8"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/1_2e245419-a818-4327-bc11-988eff38ce5f.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "background-1",
+        "color_scheme": "accent-1",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "fe8620c8-5e78-4064-9845-1aa3abe849f5": {
+      "type": "multirow",
+      "blocks": {
+        "template--15077861916737__fe8620c8-5e78-4064-9845-1aa3abe849f5-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/9.png",
+            "caption": "Medium Roast",
+            "heading": "<strong>Hemp Infused</strong>",
+            "text": "<p>Whether you’re a coffee enthusiast seeking a new experience or someone mindful of health and wellness, our Hemp-Infused Coffee is a perfect choice. Let each cup be a moment of indulgence and a step towards a more balanced you.</p>",
+            "button_label": "Shop Hemp",
+            "button_link": "shopify://products/organic-hemp-coffee-blend-medium-roast-4oz"
+          }
+        },
+        "template--15077861916737__fe8620c8-5e78-4064-9845-1aa3abe849f5-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Banners_and_Promotional_2.png",
+            "caption": "Dark roast",
+            "heading": "<strong>Lions Mane & Chaga</strong>",
+            "text": "<p>Our Lions Mane & Chaga Blend marries the rich, earthy tones of Chaga mushrooms with the rich flavors Lions Mane. These natural ingredients are renowned for their health benefits, and we've harnessed their power in a cup of coffee that not only delights the palate but also nurtures the body. </p>",
+            "button_label": "Shop Mushroom",
+            "button_link": "shopify://products/lion-s-mane-chaga-ground-coffee-4oz"
+          }
+        },
+        "c6532fdb-95ac-4b96-bfbe-4088ca963f40": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/8.png",
+            "caption": "Light-Medium Roast",
+            "heading": "<strong>Brazilian Blend</strong>",
+            "text": "<p>Whether enjoyed as a morning wake-up call, an afternoon treat, or an accompaniment to dessert, our Brazilian Coffee is versatile and inviting. It's perfect for those who appreciate a coffee that combines a rich taste with a smooth, enjoyable drinking experience.</p>",
+            "button_label": "Brazilian Blend",
+            "button_link": "shopify://products/brazilian-blend-4oz"
+          }
+        },
+        "813b842f-da12-4e3c-befc-469ce7ad2422": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/11.png",
+            "caption": "Medium-Dark Roast",
+            "heading": "<strong>Manuka Honey</strong>",
+            "text": "<p>The raw Manuka Honey gives the coffee a unique sweet note that perfectly balances the acidity of the coffee. Along with this, the honey also provides anti-bacterial, anti-viral, and anti-inflammatory effects to the body. </p>",
+            "button_label": "Manuka Honey",
+            "button_link": "shopify://products/manuka-honey-meld-brew-medium-roast-4oz"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077861916737__fe8620c8-5e78-4064-9845-1aa3abe849f5-row-1",
+        "template--15077861916737__fe8620c8-5e78-4064-9845-1aa3abe849f5-row-2",
+        "c6532fdb-95ac-4b96-bfbe-4088ca963f40",
+        "813b842f-da12-4e3c-befc-469ce7ad2422"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "132f0ac0-d8bf-47c5-8c42-be02085386fb": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15077861916737__132f0ac0-d8bf-47c5-8c42-be02085386fb-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/6.png",
+            "title": "Focus",
+            "text": "<p>This unique concoction is more than just a coffee; it's a daily ritual designed to invigorate your senses and enrich your well-being.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15077861916737__132f0ac0-d8bf-47c5-8c42-be02085386fb-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/13.png",
+            "title": "<strong>Protein +</strong>",
+            "text": "<p>We then infuse these beans with sustainably sourced hemp, ensuring that each sip delivers the best in both taste and wellness. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "3172d33d-ba0c-47dc-b197-401c0d562f70": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/7.png",
+            "title": "Health & Wellness",
+            "text": "<p>Manuka Honey Coffee, an exquisite blend that combines the deep, rich flavors of our premium coffee with the unique sweetness and health benefits of Manuka honey.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15077861916737__132f0ac0-d8bf-47c5-8c42-be02085386fb-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/12.png",
+            "title": "Classic",
+            "text": "<p>This coffee is a celebration of flavor, embodying the lively essence of its origin.</p><p>The Essence of Brazilian Coffee</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15077861916737__132f0ac0-d8bf-47c5-8c42-be02085386fb-column-3",
+        "template--15077861916737__132f0ac0-d8bf-47c5-8c42-be02085386fb-column-2",
+        "3172d33d-ba0c-47dc-b197-401c0d562f70",
+        "template--15077861916737__132f0ac0-d8bf-47c5-8c42-be02085386fb-column-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Our Roster",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "TRY LOCCA",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "a8e2388a-240a-4924-802a-7379e7f9b794": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15077861916737__a8e2388a-240a-4924-802a-7379e7f9b794-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--15077861916737__a8e2388a-240a-4924-802a-7379e7f9b794-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--15077861916737__a8e2388a-240a-4924-802a-7379e7f9b794-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15077861916737__a8e2388a-240a-4924-802a-7379e7f9b794-heading-1",
+        "template--15077861916737__a8e2388a-240a-4924-802a-7379e7f9b794-text-1",
+        "template--15077861916737__a8e2388a-240a-4924-802a-7379e7f9b794-buttons-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/5_02860d3c-2ae9-4d71-8bd2-7b8420650ded.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "fixed",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "9333be9b-5892-4e04-9413-6251f18e1354": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--15077861916737__9333be9b-5892-4e04-9413-6251f18e1354-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What makes Locca Coffee Co. unique?",
+            "icon": "plant",
+            "row_content": "<p>Locca Coffee Co. specializes in crafting high-quality coffee with a focus on unique blends and health-enhancing ingredients, such as Chaga, Lion's Mane, and Manuka honey. Our dedication to innovation and quality sets us apart.</p>",
+            "page": ""
+          }
+        },
+        "template--15077861916737__9333be9b-5892-4e04-9413-6251f18e1354-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I store my coffee to keep it fresh?",
+            "icon": "plant",
+            "row_content": "<p>We recommend storing your coffee in an airtight container, away from direct sunlight and heat. It's best to keep it in a cool, dark place to preserve its freshness and flavor.</p>",
+            "page": ""
+          }
+        },
+        "template--15077861916737__9333be9b-5892-4e04-9413-6251f18e1354-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is your coffee ethically sourced?",
+            "icon": "plant",
+            "row_content": "<p>Absolutely. We are committed to ethical sourcing, ensuring that all our coffee beans are acquired responsibly, supporting sustainable farming practices and fair compensation for farmers.</p>",
+            "page": ""
+          }
+        },
+        "template--15077861916737__9333be9b-5892-4e04-9413-6251f18e1354-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer international shipping?",
+            "icon": "plant",
+            "row_content": "<p>Yes we do! We want people all over the world to be able to experience our amazing coffee so we’re happy to announce that we now offer world wide shipping for all our products.</p>",
+            "page": ""
+          }
+        },
+        "577c305a-dffe-4a7a-ada0-1149ec2bf7c6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are your coffee products gluten-free?",
+            "icon": "plant",
+            "row_content": "<p>Yes, all our coffee products are naturally gluten-free.</p>",
+            "page": ""
+          }
+        },
+        "48966681-dadb-4eac-88bc-7b9e1f783d3a": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer decaffeinated options?",
+            "icon": "plant",
+            "row_content": "<p>We currently focus on regular coffee blends. However, we are considering expanding our product range to include decaffeinated options in the future.</p>",
+            "page": ""
+          }
+        },
+        "1908e0b9-9236-4f72-bd35-86efc5563979": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the shelf life of your coffee?",
+            "icon": "plant",
+            "row_content": "<p>Our coffee is best enjoyed within 3-4 weeks of opening. However, when stored properly, it can last up to 6 months.</p>",
+            "page": ""
+          }
+        },
+        "ef949f3d-a77d-44d6-be05-e4638a18e149": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is your return policy?",
+            "icon": "plant",
+            "row_content": "<p>We accept returns within 30 days of purchase for unopened products. For issues related to quality or shipment, please contact our customer service team.</p>",
+            "page": ""
+          }
+        },
+        "3a7cbd86-a108-49f5-b0e6-2cfa0076035a": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer wholesale pricing?",
+            "icon": "plant",
+            "row_content": "<p>Yes, we offer wholesale pricing to retailers and cafes. Please contact us directly at <a href=\"mailto:info@loccacoffee.com\"><span style=\"text-decoration:underline\">info@loccacoffee.com</span></a> for more information and pricing details.</p>",
+            "page": ""
+          }
+        },
+        "61f91c0a-4d4c-43ad-af3e-7beda2dcefdc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are your packaging materials eco-friendly?",
+            "icon": "plant",
+            "row_content": "<p>We are committed to sustainability, and our packaging is designed to be eco-friendly and recyclable.</p>",
+            "page": ""
+          }
+        },
+        "f7535c63-b199-4673-9769-606c067b0e32": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "How does the addition of ingredients like Chaga and Lion’s Mane affect the taste of coffee?",
+            "icon": "check_mark",
+            "row_content": "<p>Just like regular coffee! These ingredients are added to complement the coffee’s natural flavor profile. They offer subtle, earthy notes and enhance the coffee experience without overpowering the taste.</p>",
+            "page": ""
+          }
+        },
+        "f7f1d505-eca7-4ac1-8f48-e0ea624dbfff": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Can I cancel my coffee subscription at any time?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes, there are no long-term commitments. You can cancel your subscription at any time.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15077861916737__9333be9b-5892-4e04-9413-6251f18e1354-collapsible_row-1",
+        "template--15077861916737__9333be9b-5892-4e04-9413-6251f18e1354-collapsible_row-2",
+        "template--15077861916737__9333be9b-5892-4e04-9413-6251f18e1354-collapsible_row-3",
+        "template--15077861916737__9333be9b-5892-4e04-9413-6251f18e1354-collapsible_row-4",
+        "577c305a-dffe-4a7a-ada0-1149ec2bf7c6",
+        "48966681-dadb-4eac-88bc-7b9e1f783d3a",
+        "1908e0b9-9236-4f72-bd35-86efc5563979",
+        "ef949f3d-a77d-44d6-be05-e4638a18e149",
+        "3a7cbd86-a108-49f5-b0e6-2cfa0076035a",
+        "61f91c0a-4d4c-43ad-af3e-7beda2dcefdc",
+        "f7535c63-b199-4673-9769-606c067b0e32",
+        "f7f1d505-eca7-4ac1-8f48-e0ea624dbfff"
+      ],
+      "disabled": true,
+      "settings": {
+        "caption": "",
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "section",
+        "color_scheme": "",
+        "container_color_scheme": "background-1",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 8,
+        "padding_bottom": 36
+      }
+    },
+    "6690292d-f377-4339-92b2-9343f4064ce5": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "heading": "Blog Posts",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 20
+      }
+    },
+    "26723e4d-b75d-49e5-992f-aacfd4b7726b": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077861916737__26723e4d-b75d-49e5-992f-aacfd4b7726b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find Out What's Brewing",
+            "heading_size": "h2"
+          }
+        },
+        "template--15077861916737__26723e4d-b75d-49e5-992f-aacfd4b7726b-email_form-1": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "template--15077861916737__26723e4d-b75d-49e5-992f-aacfd4b7726b-heading-1",
+        "template--15077861916737__26723e4d-b75d-49e5-992f-aacfd4b7726b-email_form-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "3cb23e6a-bc5b-4b69-be49-680ce6665549",
+    "09a45578-c500-44cd-abe0-3e0e03c1e94a",
+    "rich_text_PzTGkr",
+    "86982f33-d2b0-4f9e-b44b-8bd3226411ab",
+    "054d66c5-aba1-4c81-9d21-848999a692b5",
+    "fe8620c8-5e78-4064-9845-1aa3abe849f5",
+    "132f0ac0-d8bf-47c5-8c42-be02085386fb",
+    "a8e2388a-240a-4924-802a-7379e7f9b794",
+    "9333be9b-5892-4e04-9413-6251f18e1354",
+    "6690292d-f377-4339-92b2-9343f4064ce5",
+    "26723e4d-b75d-49e5-992f-aacfd4b7726b"
+  ]
+}
